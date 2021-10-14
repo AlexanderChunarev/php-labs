@@ -39,6 +39,7 @@
                       </tr>";
                 ++$rowNumber;
             }
+            break;
         }
     }
     fclose($file);
