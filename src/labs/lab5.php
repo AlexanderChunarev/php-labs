@@ -29,7 +29,7 @@
 
     libxml_use_internal_errors(true);
     $url = "https://www.gismeteo.ua/ua/weather-cherkasy-4956/";
-//    $url = "https://www.gismeteo.ua/ua/weather-kharkiv-5053/";
+//  $url = "https://www.gismeteo.ua/ua/weather-kharkiv-5053/";
     $curl = curl_init($url);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
