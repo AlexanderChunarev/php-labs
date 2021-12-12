@@ -1,0 +1,29 @@
+body {
+    padding: 32px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper div {
+    padding: 8px;
+}
+
+.wrapper div h3{
+    text-align: center;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+}
+
+.info-item p {
+    margin: 2px 4px;
+}
+
+.form button {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}

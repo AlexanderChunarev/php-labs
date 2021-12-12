@@ -11,6 +11,9 @@
                 <li><a href="src/labs/lab3.php">Lab 3</a></li>
                 <li><a href="src/labs/lab4.php">Lab 4</a></li>
                 <li><a href="src/labs/lab5.php">Lab 5</a></li>
+                <li><a href="src/labs/lab6.php">Lab 6</a></li>
+                <li><a href="src/labs/lab7.php">Lab 7</a></li>
+                <li><a href="src/labs/lab8.php">Lab 8</a></li>
             </ul>
         </nav>
     </body>
