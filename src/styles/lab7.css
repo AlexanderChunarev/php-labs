@@ -1,0 +1,21 @@
+body {
+    padding: 32px;
+}
+
+.product-item {
+    display: flex;
+    margin: 16px;
+    padding: 8px;
+    border: 2px solid #efefef;
+    border-radius: 12px;
+}
+
+.product-item img {
+    max-width: 196px;
+}
+
+.product-item-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
