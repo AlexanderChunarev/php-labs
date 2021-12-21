@@ -6,8 +6,13 @@
 </head>
 <body>
 <h1>Lab 6</h1>
-<img src='lab6_image_generate.php?gorod=weather-cherkasy-4956'>
-<!--    <img src='lab6_image-generate.php?town_uri=weather-kyiv-4944' alt="">-->
-<!--    <img src='lab6_image-generate.php?town_uri=weather-odessa-4982'>-->
+<h3>
+  погода в Черкассах
+</h3>
+<img src='lab6_image_generate.php?town=weather-cherkasy-4956'>
+<h3>
+    погода в Києві
+</h3>
+<img src='lab6_image_generate.php?town=weather-kyiv-4944'><br><br>
 </body>
 </html>
