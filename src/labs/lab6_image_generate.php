@@ -51,10 +51,10 @@ for ($i = 0; $i < count($data) - 1; $i++) {
     $curr_day_temp = intval($data[$i]->{'temperature'});
     $next_day_temp = intval($data[$i + 1]->{'temperature'});
     imageline($dest_img, 50 * ($i + 1), 100 - $curr_day_temp * 2, 50 * ($i + 2), 100 - $next_day_temp * 2, $line_red);
-    imagestring($dest_img, 5, 50 * ($i + 1) - 10, (100 - $curr_day_temp * 2) - 15, $curr_day_temp, $line_red);
-    imagestring($dest_img, 5, 50 * ($i + 2) - 10, (100 - $next_day_temp * 2) - 15, $next_day_temp, $line_red);
-    imageline($dest_img, 50 * ($i + 1), 110, 50 * ($i + 1), 110, $line_blue);
-    imagestring($dest_img, 5, (50 * ($i + 1)), 130, intval($data[$i]->{'time'}), $line_blue);
+    imagestring($dest_img, 5, 50 * ($i + 1) - 14, (100 - $curr_day_temp * 2) - 15, $curr_day_temp, $line_red);
+    imagestring($dest_img, 5, 50 * ($i + 2) - 14, (100 - $next_day_temp * 2) - 15, $next_day_temp, $line_red);
+    imageline($dest_img, 50 * ($i + 1), 150, 50 * ($i + 1), 160, $line_blue);
+    imagestring($dest_img, 5, 50 * ($i + 1) - 4, 160, intval($data[$i]->{'time'}), $line_blue);
 }
 imagepng($dest_img);
 imagedestroy($dest_img);
